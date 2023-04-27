@@ -1,0 +1,59 @@
+body{
+    background-color: #f5d9d5;
+    font-family: Nunito, sans-serif;
+}
+
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color: #e22567;
+    font-weight: 100;
+    font-size: 1.15rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link{ /* When hover, turn the text red */
+    color: black;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand{
+    color: #ea1c2c;
+}
+
+#headingGroup span{
+    color: #ea1c2c;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+#mainNavbar.scrolled{
+    background-color: rgb(192, 197, 222);
+    transition: background-color 1s; /* When transition to the new color, take 1 second to change. */
+}
+
+@media (max-width: 1200px){ /* When going less than 1200px, change the size of the text. */
+    #headingGroup h1{
+        font-size: 2.5rem;
+    }
+}
